@@ -1,0 +1,7 @@
+google-cloud-bigquery
+numpy
+pandas
+requests
+pyarrow
+db-dtypes
+seaborn
