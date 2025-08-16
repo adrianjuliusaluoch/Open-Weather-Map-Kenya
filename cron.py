@@ -158,7 +158,7 @@ if __name__ == "__main__":
     dataset_id = 'cloud_storage'
     table_id = 'openweathermap'
     
-    # Define the table schema
+    # Define the table schema for new table
     schema = [
         bigquery.SchemaField("City", "STRING"),
         bigquery.SchemaField("Time_of_Data_Calculation", "TIMESTAMP"),
@@ -216,4 +216,5 @@ if __name__ == "__main__":
         job.reload()
         print(job.state)
 
+    # Return Data Info
     print(f"Data {data.shape} has been successfully retrieved, saved, and appended to the BigQuery table.")
