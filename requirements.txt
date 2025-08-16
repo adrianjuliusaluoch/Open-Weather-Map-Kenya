@@ -1,7 +1,6 @@
 google-cloud-bigquery
-numpy
 pandas
+numpy
 requests
 pyarrow
 db-dtypes
-seaborn
